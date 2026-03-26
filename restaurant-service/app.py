@@ -9,7 +9,7 @@ api = Api(
     app,
     title="Restaurant Service API",
     version="1.0",
-    description="Handles restaurant operations",
+    description="Handles restaurant details and management",
     doc="/docs"
 )
 
