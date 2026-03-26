@@ -6,3 +6,4 @@ load_dotenv()
 class Config:
     MONGO_URL = os.getenv("MONGO_URL")
     PORT = int(os.getenv("PORT", 5004))
+    DB_NAME = "payment_db"

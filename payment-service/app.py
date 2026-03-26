@@ -9,7 +9,7 @@ api = Api(
     app,
     title="Payment Service API",
     version="1.0",
-    description="Handles payment processing",
+    description="Handles payment processing on restaurants and order details",
     doc="/docs"
 )
 
