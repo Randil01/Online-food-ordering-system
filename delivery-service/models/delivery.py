@@ -6,5 +6,5 @@ def delivery_schema(delivery):
         "order_id": delivery.get("order_id"),
         "driver_name": delivery.get("driver_name"),
         "status": delivery.get("status"),
-        "created_at": delivery.get("created_at")
+        "created_at": delivery.get("created_at").isoformat() if delivery.get("created_at") else None
     }
