@@ -55,3 +55,5 @@ instance/
 
 # Mac / OS files (optional)
 .DS_Store
+order-service/Orders_API_Documentation.docx
+order-service/API_DOCUMENTATION.md
