@@ -7,7 +7,9 @@ SERVICES = {
     "restaurant": "http://localhost:5001",
     "order": "http://localhost:5002",
     "payment": "http://localhost:5004",
-    "feedback": "http://localhost:5005"
+    "feedback": "http://localhost:5005",
+    "delivery": "http://localhost:5006"
+
 }
 
 @app.route('/api/<service_name>/<path:path>', methods=['GET', 'POST', 'PUT', 'DELETE'])
