@@ -8,7 +8,17 @@ api = Api(
     app,
     title="Online Food Ordering System API Gateway",
     version="1.0",
-    description="API Gateway for Online Food Ordering System",
+    description="""This gateway routes requests to the appropriate microservices for restaurant management, order processing, payment handling, feedback collection, and delivery tracking.
+    This gateway provides a **single unified entry point** for all microservices
+    Instead of accessing multiple ports, all requests go through **port 5000**
+    
+    ### Available Microservices:
+- **Restaurant Service** (internal: port 5001) → `/api/restaurant`
+- **order Service** (internal: port 5002) → `/api/order`
+- **Payment Service** (internal: port 5003) → `/api/payment`
+- **Feedback Service** (internal: port 5004) → `/api/feedback`
+- **Delivery Service** (internal: port 5006) → `/api/delivery`
+    """,
     doc="/docs"
 )
 
