@@ -1,0 +1,59 @@
+# =========================
+# Python / Flask Project
+# =========================
+
+# Virtual environment folders
+venv/
+env/
+*.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Flask / general environment files
+instance/
+.env
+*.env
+.webassets-cache
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Database / SQLite files (optional)
+*.sqlite3
+
+# Mac / OS files (optional)
+.DS_Store
+order-service/Orders_API_Documentation.docx
+order-service/API_DOCUMENTATION.md
