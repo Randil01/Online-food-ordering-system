@@ -16,11 +16,22 @@ payment_model = payment_ns.model('Payment', {
 })
 
 # validation functions
+
+import requests
+
+    
 def restaurant_exists(restaurant_id):
-    return restaurants_collection.find_one({"_id": restaurant_id}) is not None
+    try:
+        return restaurants_collection.find_one({"_id": ObjectId(restaurant_id)}) is not None
+    except:
+        return False
+
 
 def order_exists(order_id):
-    return orders_collection.find_one({"_id": order_id}) is not None
+    try:
+        return orders_collection.find_one({"_id": ObjectId(order_id)}) is not None
+    except:
+        return False
 
 
 # create / get all payments

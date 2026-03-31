@@ -7,5 +7,5 @@ def payment_schema(payment):
         "amount": payment["amount"],
         "status": payment["status"],
         "method": payment["method"],
-        "created_at": payment["created_at"]
+        "created_at": payment["created_at"].isoformat() 
     }
