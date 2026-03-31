@@ -7,3 +7,5 @@ ca = certifi.where()
 client = MongoClient(Config.MONGO_URL, tlsCAFile=ca)
 db = client[Config.DB_NAME]
 deliveries_collection = db[Config.COLLECTION_NAME]
+counters_collection = db['counters']
+
