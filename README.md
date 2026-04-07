@@ -97,9 +97,9 @@ http://localhost:5001/restaurants
 | Member | Contribution |
 |--------|-------------|
 | Duvini27 | Restaurant Service |
-| Venuja | Order Service |
+| Vnuja | Order Service |
 | Randil01 | Payment Service |
-| Member 4 | Feedback Service |
+| venujageenodh 4 | Feedback Service |
 | Dinal Chnadeepa | Delivery Service |
 
 ---
